@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 void main(List<String> args) {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: Myapp(),
   ));
 }
@@ -13,11 +13,11 @@ class Myapp extends StatefulWidget {
   const Myapp({Key? key}) : super(key: key);
 
   @override
-  _MyappState createState() => _MyappState();
+  MyappState createState() => MyappState();
 }
 
-class _MyappState extends State<Myapp> {
-  final _storage = FlutterSecureStorage();
+class MyappState extends State<Myapp> {
+  final _storage = const FlutterSecureStorage();
   final _textController = TextEditingController();
   int i = 0;
 
@@ -91,7 +91,7 @@ class _MyappState extends State<Myapp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Secured Data'),
+        title: const Text('Secured Data'),
       ),
       body: Column(
         children: [
@@ -109,12 +109,12 @@ class _MyappState extends State<Myapp> {
                     _saveValue(_textController.value.text, i);
                     i++;
                   },
-                  child: Text('Add data')),
+                  child: const Text('Add data')),
               ElevatedButton(
                   onPressed: () {
                     _deleteAll();
                   },
-                  child: Text('Delete All')),
+                  child: const Text('Delete All')),
             ],
           ),
           Expanded(
@@ -128,7 +128,7 @@ class _MyappState extends State<Myapp> {
                       onPressed: () {
                         _deleteItem(_list[index].key);
                       },
-                      icon: Icon(Icons.delete)),
+                      icon: const Icon(Icons.delete)),
                 );
               },
             ),
