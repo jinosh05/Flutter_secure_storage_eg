@@ -44,10 +44,7 @@ and find the output in `build/app/outputs/flutter-apk/app-release.apk`
 
 Currently supports flutter: 2.20
 
-Re-generate contact_model.g.dart files
-  flutter packages pub run build_runner build --delete-conflicting-outputs
-  
-  
+
 # How to get this Repo and run it on your System
 
 I kept the code as original as possible with prober Commented Guides for anyone to understand and implement. Still you need to follow these steps.
