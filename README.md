@@ -53,12 +53,10 @@ Re-generate contact_model.g.dart files
 I kept the code as original as possible with prober Commented Guides for anyone to understand and implement. Still you need to follow these steps.
   - First get Flutter and all necessary SDK/Plugins installed. Full guide here [Flutter: Get Started](https://flutter.dev/docs/get-started/install)
   - Now download this [Repo](https://github.com/jinosh05/Flutter_secure_storage_eg/zip/master)
-  - Extract the Repo into your newly created **hive_eg** and replace the required files.
+  - Extract the Repo into your newly created **Flutter_secure_storage_eg** and replace the required files.
   - Now you can Finally run VS-Code or Android Studio whichever you prefer and get the flutter packages and just run the App.
   
 # Download the APK
 
-
-
-[Download Now](https://github.com/jinosh05/Flutter_secure_storage_eg/blob/main/app-release.apk).
+Download the latest apk through the release sector.
  
