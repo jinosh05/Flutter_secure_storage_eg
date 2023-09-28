@@ -56,4 +56,9 @@ I kept the code as original as possible with prober Commented Guides for anyone 
 # Download the APK
 
 Download the latest apk through the release sector.
- 
+
+
+
+ ## 💰You can help me by Donating 
+
+<a href="https://www.buymeacoffee.com/jinosh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
